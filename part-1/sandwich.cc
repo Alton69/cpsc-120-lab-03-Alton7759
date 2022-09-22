@@ -1,6 +1,6 @@
-// Tuffy Titan
+// Christian Alton Bonilla
 // CPSC 120-01
-// 2050-01-31
+// 2022-08-21
 // tuffy.titan@csu.fullerton.edu
 // @tuffytitan
 //
@@ -12,10 +12,21 @@
 #include <iostream>
 #include <string>
 
-int main(int argc, char const *argv[]) {
+using namespace std;
 
-  // TODO: Add statements that implement the algorithm described in the
-  // README. Then delete this comment.
+int main(int argc, char const *argv[]) {
+  string portein;
+  cout << "Enter protein: ";
+  cin >> portein;
+  string bread;
+  cout << "Enter bread: ";
+  cin >> bread;
+  string condiment;
+  cout << "Enrer condiment: ";
+  cin >> condiment;
+  cout << "Your order:\n"
+       << "A " << portein << " sandwich on " << bread << " with " << condiment
+       << "\n";
 
   return 0;
 }

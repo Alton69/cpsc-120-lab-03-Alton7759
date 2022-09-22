@@ -1,12 +1,13 @@
 // Christian Alton Bonilla
 // CPSC 120-01
 // 2022-08-21
-// tuffy.titan@csu.fullerton.edu
-// @tuffytitan
+// Alton7@csu.fullerton.edu
+// @Alton7759
 //
 // Lab 03-01
+// Partners: @peteranteater
 //
-// Print out a description of a sandwich.
+// This my first program and it prints out Hello World!
 //
 
 #include <iostream>

@@ -1,10 +1,11 @@
-// Tuffy Titan
+// Christian Alton Bonilla
 // CPSC 120-01
-// 2050-01-31
-// tuffy.titan@csu.fullerton.edu
-// @tuffytitan
+// 2022-08-21
+// Alton7@csu.fullerton.edu
+// @Alton7759
 //
-// Lab 03-02
+// Lab 03-01
+// Partners: @peteranteater
 //
 // Convert milliliters to units of the US customary system.
 //
@@ -12,10 +13,18 @@
 #include <iostream>
 #include <string>
 
-int main(int argc, char const *argv[]) {
+using namespace std;
 
-  // TODO: Add statements that implement the algorithm described in the
-  // README. Then delete this comment.
+int main(int argc, char const *argv[]) {
+  double milliliters{69};
+  cout << "Ender Ml: ";
+  cin >> milliliters;
+  double teaspoon{milliliters / 4.929};
+  double tablespoon{teaspoon / 3};
+  double ounce{tablespoon / 2};
+  double cup{ounce / 8};
+  cout << milliliters << " ml = " << teaspoon << " tsp = " << tablespoon
+       << " tbsp = " << ounce << " oz = " << cup << " cups\n";
 
   return 0;
 }

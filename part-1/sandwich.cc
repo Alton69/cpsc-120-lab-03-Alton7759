@@ -7,7 +7,7 @@
 // Lab 03-01
 // Partners: @peteranteater
 //
-// This my first program and it prints out Hello World!
+// you make a order for a sandwitch!
 //
 
 #include <iostream>
